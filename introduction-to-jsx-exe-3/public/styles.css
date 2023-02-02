@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+}
+.heading {
+  color: #645cbb;
+}
+.headingDate {
+}
+hr {
+  border: 0;
+  width: 50%;
+  border-top: 1px solid #ebc7e6;
+}
+ul {
+  color: #a084dc;
+  list-style-type: none;
+}
+.images img {
+  height: 100px;
+  width: auto;
+  margin: 5px;
+}
+.footer {
+  color: #a084dc;
+}
