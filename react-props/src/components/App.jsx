@@ -1,11 +1,15 @@
 import React from "react";
 import Card from "./Cards";
+import Avatar from "./Avatar";
 
 
 function App() {
     return (
         <div>
-        <h1 className="heading">My Contacts</h1>
+            <h1 className="heading">My Contacts</h1>
+
+            <Avatar imgURL="https://profile-images.xing.com/images/6b67dba0bb7c6fbf45db149097613b56-2/linda-ochwada.1024x1024.jpg" />
+
             <Card name="Beyonce"
                 imgURL="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
                 phone="+123 456 789"
