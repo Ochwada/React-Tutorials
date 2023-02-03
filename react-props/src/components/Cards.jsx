@@ -9,8 +9,8 @@ function Card(props) {
                 <img className ="circle-img" src={props.imgURL} alt="avatar_img" />
             </div>
             <div className="bottom">
-                <p>{props.phone}</p>
-                <p>{props.email}</p>
+                <p className ="info" >{props.phone}</p>
+                <p className ="info">{props.email}</p>
             </div>
 
 

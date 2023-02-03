@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Contacts from "./components/Contacts";
+import App from "./components/App";
 
 
 ReactDOM.render(
   <div>
-    <h1 className="heading">My Contacts</h1>
-    <Contacts />
+    <App />
   </div>,
   document.getElementById("root")
 );
