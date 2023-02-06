@@ -1,12 +1,12 @@
-let numbers = [3, 56, 2, 48, 5];
+import emojipedia from "./emojipedia";
 
 
-const newNumbers =numbers.map((x) => {
-    return x * 2;
+const newEmojipedia = emojipedia.map((emojiEntry) => {
+    return emojiEntry.meaning.substring(0,100)
+
 });
 
-
-
+console.log(newEmojipedia);
 //Map -Create a new array by doing something with each item in an array.
 
 
